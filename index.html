@@ -7,17 +7,34 @@
     <title>Welcome to kokoa talk</title>
 </head>
 <body>
-    <div id="status-bar"></div>
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <!--to do : Wifi icon-->
-        </div>
+    <div class="status-bar">
+    <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+    </div>
         <div class="status-bar__column"></div>
             <span>18:43</span>
         <div class="status-bar__column"></div>
             <span>110%</span>
-            <!-- Battery Icon-->
-            <!-- Lightning Icon-->
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
     </div>
+
+    <header class="welconme-header">
+        <h1 class="welcome-header__title">Welcome to KoKoa Clone</h1>
+        <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone nunber.</p>
+    </header>
+
+    <form id="kogin-form">
+        <input  type="text" placeholder="Email or phone number">
+        <input type="password" placeholder="password">
+        <input type="submit" value="Log in">
+        <a href="#">Find Kakao Account or passwodr</a>
+    </form>
+
+    <script src="https://kit.fontawesome.com/1d13e6db91.js"
+        crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
